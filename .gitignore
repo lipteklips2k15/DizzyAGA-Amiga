@@ -1,0 +1,28 @@
+# build output
+dizzyage-amiga/obj-amiga/
+dizzyage-amiga/obj-host/
+dizzyage-amiga/dizzy
+dizzyage-amiga/dizzy.stripped
+dizzyage-amiga/dizzy-host
+dizzyage-amiga/dizzy-host.exe
+
+# WinUAE test machine: the OS hard disk image, and the game files copied into the shared folder
+winuae-test/*.hdf
+winuae-test/share/dizzy35/dizzy
+winuae-test/share/dizzy35/dizzy.pak
+winuae-test/share/dizzy35/readme.txt
+
+# archives, emulator metadata and local app settings that live in the folder but aren't the project
+*.rar
+*.zip
+*.7z
+*.lha
+winuae-test/share/*.info
+winuae-test/share/_UAEFSDB.___
+.claude/
+
+# run output
+*.log
+*.ppm
+*.wav
+shot*.tga
